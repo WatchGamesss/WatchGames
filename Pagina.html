@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WatchGames</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <div class="loader_bg">
+    <div class="loader"></div>
+  </div>
+
+  <header class="hero">
+    <header class="header">
+      <div class="container">
+          <div class="logo">
+              <h1>WatchGames</h1>
+          </div>
+          <nav class="menu">
+              <a href="Pagina.html">Inicio</a>
+              <a href="../PAGINA/Pagina web - Skew/index.html">¿Que Son Los Videojuegos?</a>
+              <a href="requisitos.html">Si falta algun requisito click aqui</a>
+          </nav>
+      </div>
+  </header>
+
+    <section class="hero_main container">
+      <div class="hero_text">
+        <h1 class="hero_title">Bienvenido A Nuestra Pagina</h1>
+        <p class="hero_subtitle">Recibe las mas recientes noticias sobre los videojuegos y aprende sobre ellos</p>
+        <a href="Formulario de contacto/index.html" class="hero_cta">Registrate Ahora!</a>
+      </div>
+
+      <figure class="hero_picture">
+        <img src="images/Illustration.svg" alt="Ilustracion" class="hero_img">
+      </figure>
+    </section>
+
+    <div style="height: 150px; overflow: hidden;" class="hero_waves" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C237.30,225.48 378.38,-115.95 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+  </header>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    setTimeout(function(){
+      $('.loader_bg').fadeToggle();
+    }, 1500);
+  </script>
+  </body>
+</html>
